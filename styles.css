@@ -1,0 +1,146 @@
+body {
+    width: 100vh;
+    height: 100vh;
+    font-family: "Bungee", serif;
+    margin: auto;
+    text-align: center;
+    background-image: url(./basketball-img.png);
+    background-size: cover; 
+}
+
+h1 {
+    margin-top: 100px;
+    font-size: 50px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(135deg, #ffc107, #ff3d00);
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    color: #d35400;
+    width: 1000px;
+    height: 500px;
+    padding-top: 20px;
+    margin-right: 300px;
+    text-align: center;
+}
+
+/* .home {
+    background-color: black;
+    border-radius: 5px;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+} */
+
+h2 {
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+}
+
+p {
+    font-size: 70px;
+    
+}
+#score-home, #score-guest {
+    font-size: 70px;
+    background-color: black;
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    color: #ff3d00;
+    text-shadow: 0px 0px 10px rgba(255, 61, 0, 0.8);
+}
+
+
+#btn-reset {
+   font-size: 16px; 
+   padding: 10px 20px; 
+   background-color: #ff3d00;
+   color: white;
+   border: none;
+   cursor: pointer;
+   transition: all 0.3s ease-in-out;
+}
+
+#btn-reset:hover {
+    background-color: #d32f2f;
+}
+
+
+#btn-substract-guest, #btn-substract-home {
+ width: 40px;
+ height: 40px;
+ border: none;
+ border-radius: 8px;
+ font-size: 24px;
+ font-weight: bold;
+ color: white;
+ background: linear-gradient(145deg, #ff3d00, #d32f2f);
+ box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+ cursor: pointer;
+ transition: all 0.2s ease-in-out;
+}
+
+#btn-substract-guest:hover {
+    background: linear-gradient(145deg, #ff6659, #c62828);
+    transform: scale(1.1);
+}
+
+#btn-substract-home:hover {
+    background: linear-gradient(145deg, #ff6659, #c62828);
+    transform: scale(1.2);
+}
+
+#btn-substract-guest:active {
+    box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.5);
+    transform: scale(0.95);
+}
+
+#btn-substract-home:active {
+    box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.5);
+    transform: scale(0.95);
+}
+
+#btn-add-guest, #btn-add-home {
+ width: 40px;
+ height: 40px;
+ border: none;
+ border-radius: 8px;
+ font-size: 24px;
+ font-weight: bold;
+ color: white;
+ background: linear-gradient(145deg, #00c853, #008c3a);
+ box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+ cursor: pointer;
+ transition: all 0.2s ease-in-out;
+}
+
+#btn-add-guest:hover {
+    background: linear-gradient(145deg, #00e676, #007b2c);
+    transform: scale(1.2);
+}
+
+
+#btn-add-home:hover {
+    background: linear-gradient(145deg, #00e676, #007b2c);
+    transform: scale(1.2);
+}
+
+#btn-add-guest:active {
+    box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.5);
+    transform: scale(0.95);
+}
+
+#btn-add-home:active {
+    box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.5);
+    transform: scale(0.95);
+}
